@@ -4,7 +4,7 @@ import { Home } from '../pages/Home';
 import { Product } from '../pages/Product';
 import { NotFound } from '../pages/NotFound';
 
-export function AdminRoutes() {
+export function CustomerRoutes() {
   return (
     <Routes>
       <Route path="/" element={< Home />} />
